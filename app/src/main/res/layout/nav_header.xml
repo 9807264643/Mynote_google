@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:layout_marginTop="@dimen/size16"
+    android:layout_marginStart="@dimen/size16"
+    android:orientation="vertical">
+
+<de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/img_profile"
+    android:layout_width="@dimen/size100"
+    android:layout_height="@dimen/size100"
+    android:padding="@dimen/size2"
+    android:src="@drawable/user_profile"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_name"
+        android:text="Mukesh Sah"
+        android:paddingTop="@dimen/size13"
+        android:textSize="@dimen/size20"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_email"
+        android:text="hanmukesh590@gmail.com"
+        android:paddingTop="@dimen/size4"
+        android:textSize="@dimen/size16"
+        android:textColor="@color/textColor"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size1"
+        android:layout_marginTop="@dimen/size14"
+        android:background="@color/colorGrey"/>
+
+
+</LinearLayout>

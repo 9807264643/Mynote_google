@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".DashboardActivity.Dashboard">
+
+    <ImageView
+        android:id="@+id/img_google"
+        android:layout_width="@dimen/size145"
+        android:layout_height="@dimen/size145"
+        android:layout_marginBottom="@dimen/size50"/>
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_avenirheavy"
+        android:gravity="center"
+        android:text="Full Name"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/size30" />
+
+    <TextView
+        android:id="@+id/txt_names"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size8"
+        android:fontFamily="@font/font_avenirlight"
+        android:gravity="center"
+        android:text="Name"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/size20" />
+
+
+    <TextView
+        android:id="@+id/txt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_avenirheavy"
+        android:layout_marginTop="@dimen/size8"
+        android:gravity="center"
+        android:text="Email"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/size30" />
+
+    <TextView
+        android:id="@+id/txt_emails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size8"
+        android:fontFamily="@font/font_avenirlight"
+        android:gravity="center"
+        android:text="Email"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/size20" />
+
+
+    <TextView
+        android:id="@+id/txt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_avenirheavy"
+        android:layout_marginTop="@dimen/size8"
+        android:gravity="center"
+        android:text="user id"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/size30" />
+
+    <TextView
+        android:id="@+id/txt_ids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size8"
+        android:fontFamily="@font/font_avenirlight"
+        android:gravity="center"
+        android:text="id"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/size20" />
+
+
+    <Button
+        android:id="@+id/btn_sign_out"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size50"
+        android:background="@drawable/edit_text_border"
+        android:text="Sign out"
+        android:textColor="@color/colorBlack"
+        android:textAllCaps="false"
+        android:textSize="@dimen/size20"
+        android:paddingStart="@dimen/size10"
+        android:layout_toEndOf="@+id/icon_gooogle"
+        android:fontFamily="@font/avenir_medium"
+        android:layout_marginTop="@dimen/size13"
+        app:backgroundTint="@color/colorGrey"/>
+
+
+</LinearLayout>

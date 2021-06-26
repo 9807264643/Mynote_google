@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="colorBlack">#FF000000</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#0277BD</color>
+    <color name="colorPrimaryDark">#01579B</color>
+    <color name="colorAccent">#E040FB</color>
+
+
+    <color name="colorGreen">#4CAF50</color>
+    <color name="redcolor">#F60505</color>
+    <color name="colorGrey">#DCD9D9</color>
+
+<!--    <color name="textColor">#B6121F</color>-->
+    <color name="colorTransparent">#43000000</color>
+
+    <color name="selected">#982525</color>
+    <color name="not_selected">#939190</color>
+
+    <color name="greeting">#7E8795</color>
+    <color name="button_bg">#6C63FF</color>
+    <color name="welcome_platform">#131415</color>
+    <color name="mobile_no_bg">#DBDFEC</color>
+    <color name="otp_success">#33cc33</color>
+    <color name="status_bar">#F2F1FD</color>
+    <color name="verify_no">#7B819A</color>
+    <color name="mobile_no">#424344</color>
+    <color name="resend_otp">#F48D6C</color>
+    <color name="layout_bg">#80F2F1FD</color>
+
+    <color name="colorText">#4B4F63</color>
+    <color name="colorred">#FC3600</color>
+    <color name="colorText1">#797979</color>
+    <color name="colorText2">#000000</color>
+    <color name="colorTextgreen">#417505</color>
+    <color name="colorTextdesc">#273D52</color>
+    <color name="coloredite">#273D52</color>
+
+
+    <color name="gradient_start_color">#004D40</color>
+    <color name="gradient_end_color">#03A9F4</color>
+
+    <color name="colorEndGrad">#058BC8</color>
+    <color name="colorStartGrad"> #004D40</color>
+
+    <color name="colorEndGradBG">#E2BAC8</color>
+    <color name="colorStartGradBG">#D8F8DA</color>
+
+
+    <color name="textColor" tools:ignore="DuplicateDefinition">#212121</color>
+    <color name="textColorHead">#777777</color>
+    <color name="colorHeadingColor" tools:ignore="MissingDefaultResource">#000080</color>
+
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#656565</color>
+    <color name="bottomNavText">#656565</color>
+</resources>
