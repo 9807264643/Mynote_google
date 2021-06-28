@@ -14,6 +14,8 @@ import com.example.mynote.R
 import com.example.mynote.DashboardActivity.ViewModel.DashboardViewModel
 import com.google.firebase.auth.FirebaseAuth
 
+// set porfile pic
+//https://www.youtube.com/watch?v=qANyvTysn04&list=RDCMUCR1t5eSmLxLUdBnK2XwZOuw&start_radio=1&t=16s
 
 class Dashboard : AppCompatActivity() {
     private lateinit var mAuth: FirebaseAuth
